@@ -1,12 +1,11 @@
 
-
 ---
 
 # Bank Account Project
 
 ## Overview
 
-The Bank Account Project is a simple Python program that demonstrates the implementation of a basic bank account using object-oriented programming principles. It includes a `BankAccount` class with methods for initializing the account, depositing money, withdrawing money, and checking the account balance.
+The Bank Account Project is a Python program that implements a simple bank account using object-oriented programming principles. It includes a `BankAccount` class with methods for initializing the account, depositing money, withdrawing money, and checking the account balance.
 
 ## Table of Contents
 
@@ -20,7 +19,7 @@ The Bank Account Project is a simple Python program that demonstrates the implem
 ## Features
 
 - Object-oriented design with a `BankAccount` class.
-- Initialization of account with account holder's name, initial balance, and total balance.
+- Initialization of an account with the account holder's name and an optional initial balance.
 - Deposit method to add funds to the account.
 - Withdraw method to subtract funds from the account (with a check for insufficient funds).
 - Get Balance method to retrieve the current account balance.
@@ -50,7 +49,7 @@ The Bank Account Project is a simple Python program that demonstrates the implem
 
 The `BankAccount` class provides the following methods:
 
-- `__init__(self, account_holder, initial_balance, total_balance)`: Initializes the account with the account holder's name, initial balance, and total balance.
+- `__init__(self, account_holder, total_balance=0)`: Initializes the account with the account holder's name and an optional initial balance.
 
 - `deposit(self, amount)`: Adds a specified amount to the account balance.
 
@@ -62,21 +61,24 @@ The `BankAccount` class provides the following methods:
 
 ```python
 # Create an instance of the BankAccount class
-account = BankAccount("John Doe", 1000.0, 1000.0)
+Person1 = Bank_account("John Doe")
 
 # Perform transactions
-account.deposit(500.0)
-account.withdraw(200.0)
-
-# Get and print the final balance
-print("Final Balance:", account.get_balance())
+Person1.deposit(500)
+Person1.deposit(1500)
+Person1.deposit(46)
+Person1.withdraw(250)
+Person1.get_balance()
 ```
 
 ## Contributing
 
 Contributions are welcome! Please follow the [contribution guidelines](CONTRIBUTING.md) if you'd like to contribute to the project.
 
+## License
 
+This project is licensed under the [MIT License](LICENSE).
 
 ---
+
 
