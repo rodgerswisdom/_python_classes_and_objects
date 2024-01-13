@@ -35,14 +35,14 @@ The Bank Account Project is a Python program that implements a simple bank accou
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/bank-account-project.git
-   cd bank-account-project
+   git clone https://github.com/rodgerswisdom/_python_classes_and_objects.git
+   cd _python_classes_and_objects
    ```
 
 2. Run the Python script:
 
    ```bash
-   python main.py
+   python bank_account.py
    ```
 
 ## Usage
@@ -75,9 +75,7 @@ Person1.get_balance()
 
 Contributions are welcome! Please follow the [contribution guidelines](CONTRIBUTING.md) if you'd like to contribute to the project.
 
-## License
 
-This project is licensed under the [MIT License](LICENSE).
 
 ---
 
